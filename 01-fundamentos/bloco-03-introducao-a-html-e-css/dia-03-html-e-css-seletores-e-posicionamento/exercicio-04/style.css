@@ -31,24 +31,25 @@ div:nth-of-type(5) {
 
 /* 3 - Estilize cada uma das tags <h3>. */
 /* Aqui estamos pegando a primeira div e o primeiro h3 */
-div:nth-of-type(1) > h3 {
+div:nth-of-type(1) h3 {
     color: white;
 }
 
-/*Aqui estamos pegando a segunda div e o primeiro h3 e assim por diante nas próximas div */
-div:nth-of-type(2) > h3:nth-of-type(2) {
+/*Aqui estamos pegando a segunda div e o segundo h3 e assim por diante nas próximas div */
+div:nth-of-type(2) h3:nth-of-type(2) {
     color:yellow;
 }
 
-div:nth-of-type(3) > h3 {
+/* Aqui estamos pegando a terceira div e o primeiro h3 e assim por diante nas próximas div */
+div:nth-of-type(3) h3 {
     color: aqua;
 }
 
-div:nth-of-type(4) > h3 {
+div:nth-of-type(4) h3 {
     color: bisque;
 }
 
-div:nth-of-type(5) > h3 {
+div:nth-of-type(5) h3 {
     color: palevioletred;
 }
 
