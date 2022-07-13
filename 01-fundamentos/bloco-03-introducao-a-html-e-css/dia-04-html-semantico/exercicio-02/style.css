@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.italic {
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    border: 1px solid black;
+    margin-left: 5px;
+    background-color: bisque;
+}
+
+.weight {
+    font-weight:bold;
+}
+
+#primeira-secao {
+    width: 100%;
+}
+
+.fotos {
+    text-align: center;
+}
+
+.imagens {
+    width: 300px;
+    border-radius: 2%;
+}
+
