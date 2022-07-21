@@ -28,9 +28,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 3.5 - Projeto - Lessons Learned
 
 ##### Bloco 4: [Introdução à JavaScript e Lógica de Programação](https://github.com/deguilar/trybe-exercises/tree/main/01-fundamentos/bloco-04-introducao-a-javascript-e-logica-de-programacao)
-- [ ] 4.1 - Introdução - JavaScript
-- [ ] 4.1 - JavaScript - Primeiros passos
-- [ ] 4.2 - JavaScript - Array e loop For
+- [x] 4.1 - Introdução - JavaScript
+- [x] 4.1 - JavaScript - Primeiros passos
+- [x] 4.2 - JavaScript - Array e loop For
 - [ ] 4.3 - JavaScript - Lógica de Programação e Algoritmos
 - [ ] 4.4 - JavaScript - Objetos e funções
 - [ ] 4.5 - Projeto - Playground Functions
