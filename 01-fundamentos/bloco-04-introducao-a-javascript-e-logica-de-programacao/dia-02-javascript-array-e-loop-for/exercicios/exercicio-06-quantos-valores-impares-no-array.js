@@ -3,20 +3,20 @@
 let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 let somaImpares = 0;
 let somaPares = 0;
+let arrayImpar = [];
+let arrayPar = [];
 
 for (index = 0; index < numbers.length; index += 1) {
   if ((numbers[index] % 2) === 0) {
-    somaImpares = somaImpares + 1;
+    somaPares = somaPares + 1;
+    arrayImpar.push(numbers[index]);
   }
   else {
-    somaPares = somaPares + 1;
+    somaImpares = somaImpares + 1;
+    arrayPar.push(numbers[index]);
   }
 }
 
-console.log('Meu array possui: ' + somaImpares + ' números ímpares');
+console.log('Meu array possui: ' + somaImpares + ' números ímpares. São eles: ' + arrayImpar);
 
-console.log('Meu array possui: ' + somaPares + ' números pares');
-
-// DÚVIDA
-
-//Se eu quisesse fazer um novo array só com os números pares, teria como?
+console.log('Meu array possui: ' + somaPares + ' números pares. São eles: ' + arrayPar);
