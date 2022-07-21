@@ -9,11 +9,11 @@ let arrayPar = [];
 for (let index = 0; index < numbers.length; index += 1) {
   if ((numbers[index] % 2) === 0) {
     somaPares = somaPares + 1;
-    arrayImpar.push(numbers[index]);
+    arrayPar.push(numbers[index]);
   }
   else {
     somaImpares = somaImpares + 1;
-    arrayPar.push(numbers[index]);
+    arrayImpar.push(numbers[index]);
   }
 }
 
