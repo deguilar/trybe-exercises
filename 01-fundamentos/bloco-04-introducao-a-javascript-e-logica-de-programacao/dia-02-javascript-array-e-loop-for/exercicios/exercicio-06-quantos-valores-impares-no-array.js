@@ -6,7 +6,7 @@ let somaPares = 0;
 let arrayImpar = [];
 let arrayPar = [];
 
-for (index = 0; index < numbers.length; index += 1) {
+for (let index = 0; index < numbers.length; index += 1) {
   if ((numbers[index] % 2) === 0) {
     somaPares = somaPares + 1;
     arrayImpar.push(numbers[index]);
