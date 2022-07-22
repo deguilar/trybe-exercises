@@ -2,7 +2,6 @@
 
 A soma de 35 a 105 é: X. */
 
-let array = [];
 let soma = 0;
 
 for (index = 35; index <= 105; index += 1) {
